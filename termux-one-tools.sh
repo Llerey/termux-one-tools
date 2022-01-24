@@ -36,3 +36,10 @@ apt install imagemagick
 
 apt install mc
 
+apt install proot-distro
+
+proot-distro install debian
+
+proot-distro install ubuntu
+
+exit
