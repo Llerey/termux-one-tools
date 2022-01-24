@@ -36,6 +36,8 @@ apt install imagemagick
 
 apt install mc
 
+apt install neofetch
+
 #apt install proot-distro
 
 #proot-distro install debian
