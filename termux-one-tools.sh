@@ -1,46 +1,10 @@
 #!/bin/bash
 
-apt update
-
-apt upgrade
-
-apt install python3
-
-apt install kotlin
-
-apt install neovim
-
-apt install vim
-
-apt install lsd
-
-apt install nodejs
-
-apt install ffmpeg
-
-apt install proot
-
-apt install openssh
-
-apt install git
-
-apt install tsu
-
+apt update && apt upgrade
+apt install -y python3 neovim lsd nodejs ffmpeg proot openssh git tsu bash-completion man imagemagick mc neofetch proot-distro
 termux-setup-storage
 
-apt install bash-completion
-
-apt install man
-
-apt install imagemagick
-
-apt install mc
-
-apt install neofetch
-
-#apt install proot-distro
-
-#proot-distro install debian
+proot-distro install debian
 
 #proot-distro install ubuntu
 
